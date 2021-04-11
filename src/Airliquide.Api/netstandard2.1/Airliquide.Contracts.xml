@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Airliquide.Contracts</name>
+    </assembly>
+    <members>
+        <member name="P:Airliquide.Contracts.Contracts.ClienteDto.Id">
+            <summary>
+            Id do registro. Obrigatório ao utilizar método PUT
+            </summary>
+            <example>
+            "6EBAE6E8-C518-49C9-A9DE-CABDB53D6792"
+            </example>
+        </member>
+        <member name="P:Airliquide.Contracts.Contracts.ClienteDto.Nome">
+            <summary>
+            Obrigatório. Nome do cliente.
+            </summary>
+            <example>
+            Teutônio Mascarenhas
+            </example>
+        </member>
+        <member name="P:Airliquide.Contracts.Contracts.ClienteDto.Idade">
+            <summary>
+            Obrigatório. Idade do cliente.
+            </summary>
+            <example>
+            33
+            </example>
+        </member>
+    </members>
+</doc>

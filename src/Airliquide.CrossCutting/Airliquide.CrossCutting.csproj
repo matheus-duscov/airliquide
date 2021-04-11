@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.1.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AirLiquide.Application\Airliquide.Application.csproj" />
+    <ProjectReference Include="..\Airliquide.Domain\Airliquide.Domain.csproj" />
+    <ProjectReference Include="..\Airliquide.Infrastructure\Airliquide.Infrastructure.csproj" />
+    <ProjectReference Include="..\AirLiquide.Resources\AirLiquide.Resources.csproj" />
+  </ItemGroup>
+
+</Project>
